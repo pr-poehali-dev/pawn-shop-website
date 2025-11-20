@@ -12,7 +12,7 @@ const Index = () => {
   const [loanTerm, setLoanTerm] = useState([30]);
 
   const calculateMonthlyPayment = () => {
-    const rate = 0.03;
+    const rate = 0.05;
     const amount = loanAmount[0];
     const days = loanTerm[0];
     return Math.round(amount * rate * (days / 30));
@@ -207,7 +207,7 @@ const Index = () => {
                 value={loanTerm}
                 onValueChange={setLoanTerm}
                 min={7}
-                max={90}
+                max={60}
                 step={1}
                 className="py-4"
               />
@@ -216,7 +216,7 @@ const Index = () => {
             <div className="bg-background rounded-lg p-6 space-y-2">
               <div className="flex justify-between text-sm">
                 <span className="text-muted-foreground">Ставка</span>
-                <span>3% в месяц</span>
+                <span>5% в месяц</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-muted-foreground">Срок</span>
