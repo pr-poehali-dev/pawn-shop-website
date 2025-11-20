@@ -24,7 +24,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img src="https://cdn.poehali.dev/files/f6d30e70-f25e-485b-99b6-4f76223370a4.jpg" alt="Logo" className="w-10 h-10 rounded-lg" />
-            <span className="text-2xl font-bold">ЗолотоЗайм</span>
+            <span className="text-2xl font-bold">Ломбар "КАПИТАЛ"  - Дагомыс</span>
           </div>
           <div className="hidden md:flex gap-6">
             <a href="#home" className="hover:text-accent transition-colors">Главная</a>
