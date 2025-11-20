@@ -23,7 +23,7 @@ const Index = () => {
       <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <Icon name="Gem" className="text-accent" size={32} />
+            <img src="https://cdn.poehali.dev/files/f6d30e70-f25e-485b-99b6-4f76223370a4.jpg" alt="Logo" className="w-10 h-10 rounded-lg" />
             <span className="text-2xl font-bold">ЗолотоЗайм</span>
           </div>
           <div className="hidden md:flex gap-6">
